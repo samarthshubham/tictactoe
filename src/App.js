@@ -67,6 +67,16 @@ const App = () => {
       <h2 style={{ fontWeight: 'normal' }}>Current game history</h2>
       <History history={history} moveTo={moveTo} currentMove={currentMove} />
       <div className="bg-balls" />
+      <br />
+      <h8>Developed by: Shubham H. Samarth</h8>
+      {/* GitHub Profile: https://github.com/samarthshubham */}
+      <a
+        href="https://github.com/samarthshubham"
+        title="GitHub Profile"
+        className="text-green"
+      >
+        Visit GitHub Profile
+      </a>
     </div>
   );
 };
